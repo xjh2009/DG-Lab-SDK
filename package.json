@@ -1,0 +1,17 @@
+{
+  "name": "csgodglab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "qrcode": "^1.5.3",
+    "ws": "^8.16.0"
+  }
+}
