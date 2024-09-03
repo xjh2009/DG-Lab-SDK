@@ -3,8 +3,7 @@ const chokidar = require('chokidar');
 const { dglcreate , dglsend_strength , dglsend_wave  } = require('./dgl');
 
 // 日志文件路径
-//const logFilePath = `E:\/SteamLibrary\/steamapps\/common\/Counter-Strike Global Offensive\/game\/csgo\/console.log`;
-const logFilePath = `C:\/Users\/xjh37\/Desktop\/console.log`;
+const logFilePath = `D:\/SteamLibrary\/steamapps\/common\/Counter-Strike Global Offensive\/game\/csgo\/console.log`;
 
 // 创建一个监视器来监控日志文件
 const watcher = chokidar.watch(logFilePath, {
@@ -48,7 +47,5 @@ watcher.on('change', (path) => {
   });
 });
 
-
-//dglcreate('D:\/Users\/Desktop\/dgl.png'); 
-dglcreate('C:\/Users\/xjh37\/Desktop\/dgl.png'); 
-
+//二维码生成位置
+dglcreate('C:\/Users\/xxxxxx\/Desktop\/dgl.png'); 
